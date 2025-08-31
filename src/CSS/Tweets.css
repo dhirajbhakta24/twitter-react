@@ -1,0 +1,13 @@
+.tweet-wrapper{
+    border:1px solid black;
+    padding : 1rem;
+    width : 600px;
+}
+.tweet-like{
+    font-size: x-small;
+}
+
+.tweet-content{
+    font-size: larger;
+    margin-bottom: 1rem;
+}
