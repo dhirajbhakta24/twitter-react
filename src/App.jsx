@@ -1,10 +1,15 @@
 import "./App.css";
-import Tweet from "./component/tweet";
+import TweetList from "./component/TweetList";
 
 function App() {
+  const dummyTweets = [
+    { id: 0, content: "first tweet", likes: 2 },
+    { id: 1, content: "well hello ", likes: 4 },
+    { id: 3, content: "oo la la ", likes: 90 },
+  ];
   return (
     <>
-      <Tweet content={"hello"} likes={2} />
+      <TweetList tweets={dummyTweets} />
     </>
   );
 }
