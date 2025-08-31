@@ -3,7 +3,7 @@ function Tweet({ content, likes }) {
     <>
       <div>{content}</div>
 
-      <div>{likes}</div>
+      <div>{likes} Likes</div>
     </>
   );
 }
